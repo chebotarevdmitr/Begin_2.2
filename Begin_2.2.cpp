@@ -13,9 +13,12 @@ int main() {
     float average_grad = 4.5; 
 // double - двойной десятичный тип  8 байт     balance -баланс
    double balance =292929292877;
-   cout<< "Size of int is "<<sizeof(int)<<"bytes \n";
-   cout<<"Int min value is"<< INT_MIN << endl;
-   	
+   
+   cout<< "Size of int is  "<<sizeof(int)<<"bytes \n";
+   // -1,-2,-3,....,-2147483648
+   cout<<"Int min value is  "<< INT_MIN << endl;
+   // 0,1,2,3,.....,2147483647
+   cout<<"Int max value is  "<< INT_MAX << endl; 	
 	
 	system("pause>0");
 }
